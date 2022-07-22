@@ -1,3 +1,3 @@
-C:/SchoolWork/SummerWork/RaytracerV02/build/CMakeFiles/RaytracerV02.dir
-C:/SchoolWork/SummerWork/RaytracerV02/build/CMakeFiles/ALL_BUILD.dir
-C:/SchoolWork/SummerWork/RaytracerV02/build/CMakeFiles/ZERO_CHECK.dir
+C:/SchoolWork/SummerWork/RayTracerV02/build/CMakeFiles/RaytracerV02.dir
+C:/SchoolWork/SummerWork/RayTracerV02/build/CMakeFiles/ALL_BUILD.dir
+C:/SchoolWork/SummerWork/RayTracerV02/build/CMakeFiles/ZERO_CHECK.dir

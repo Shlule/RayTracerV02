@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/SchoolWork/SummerWork/RaytracerV02/build"
+			"value" : "c:/SchoolWork/SummerWork/RayTracerV02/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/SchoolWork/SummerWork/RaytracerV02/build"
+			"value" : "C:/SchoolWork/SummerWork/RayTracerV02/build"
 		},
 		{
 			"name" : "RaytracerV02_IS_TOP_LEVEL",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/SchoolWork/SummerWork/RaytracerV02"
+			"value" : "C:/SchoolWork/SummerWork/RayTracerV02"
 		}
 	],
 	"kind" : "cache",

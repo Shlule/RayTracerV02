@@ -1,4 +1,4 @@
-# Install script for directory: C:/SchoolWork/SummerWork/RaytracerV02
+# Install script for directory: C:/SchoolWork/SummerWork/RayTracerV02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/SchoolWork/SummerWork/RaytracerV02/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/SchoolWork/SummerWork/RayTracerV02/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

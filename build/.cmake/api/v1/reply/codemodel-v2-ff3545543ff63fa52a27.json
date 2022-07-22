@@ -57,7 +57,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-5cb643acdbd406e699c1.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-dde7383ec86702d83bb5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -119,7 +119,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-5cb643acdbd406e699c1.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-dde7383ec86702d83bb5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -181,7 +181,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-5cb643acdbd406e699c1.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-dde7383ec86702d83bb5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -243,7 +243,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-5cb643acdbd406e699c1.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-dde7383ec86702d83bb5.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				}
@@ -253,8 +253,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/SchoolWork/SummerWork/RaytracerV02/build",
-		"source" : "C:/SchoolWork/SummerWork/RaytracerV02"
+		"build" : "C:/SchoolWork/SummerWork/RayTracerV02/build",
+		"source" : "C:/SchoolWork/SummerWork/RayTracerV02"
 	},
 	"version" : 
 	{

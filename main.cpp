@@ -14,7 +14,7 @@ int main(){
 
     //render
 
-   /* std::cout<<"P3\n"<<image_width<<' '<<image_height<<"\n";
+    std::cout<<"P3\n"<<image_width<<' '<<image_height<<"\n";
 
     for(int j =image_height-1; j>=0; j--){
         std::cerr<<"\rScanlines remaining:" <<j<<' '<<std::flush;
@@ -27,9 +27,11 @@ int main(){
             int ig = static_cast<int>(255.999*g);
             int ib = static_cast<int>(255.999*b);
 
+            std::cout<<ir<<' '<<ig<<' '<<ib<<std::endl;
+
         }
     }
-    std::cerr<<"\n Done. \n";*/
+    std::cerr<<"\n Done. \n";
     output.close();
     return 0;
 }

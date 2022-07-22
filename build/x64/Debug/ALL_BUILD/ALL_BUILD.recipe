@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\SchoolWork\SummerWork\RaytracerV02\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\SchoolWork\SummerWork\RayTracerV02\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\SchoolWork\SummerWork\RaytracerV02\build\Debug\RaytracerV02.exe</FullPath>
+      <FullPath>C:\SchoolWork\SummerWork\RayTracerV02\build\Debug\RaytracerV02.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\SchoolWork\SummerWork\RaytracerV02\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\SchoolWork\SummerWork\RayTracerV02\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
