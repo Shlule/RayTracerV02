@@ -1,33 +1,51 @@
 #include <iostream>
 #include<fstream>
+#include"Color.h"
+#include"Vec3.h"
+#include "Ray.h"
+
+Color rayColor(const Ray& r){
+    Vec3 unit_direction = unitVector(r.direction());
+    auto t  = 0.5*(unit_direction.y()+1.0);
+    return(1.0-t)*Color(1.0,1.0,1.0)+ t*Color(0.5,0.7,1.0);
+}
 
 int main(){
 
     //Image
+    const float aspectRatio =16.0/9.0;
 
-    const int image_width =256;
-    const int image_height =256;
+    const int imageWidth =400;
+    const int imageHeight = static_cast<int>(imageWidth/aspectRatio);
+
+    //camera
+    double viewportHeight =2.0;
+    double viewportWidth =aspectRatio * viewportHeight;
+    double focalLenght =1.0;
+
+    Vec3 origin= Point3(0,0,0);
+    Vec3 horizontal = Vec3(viewportWidth,0,0);
+    Vec3 vertical = Vec3(0,viewportHeight,0);
+    Vec3 lowerLeftCorner = origin - horizontal/2 - vertical/2 - Vec3(0,0,focalLenght);
 
     std::ofstream output;
+
     output.open("output.ppm");
-    output<<"blabla"<<"\n";
+    
 
     //render
 
-    std::cout<<"P3\n"<<image_width<<' '<<image_height<<"\n";
+    output<<"P3\n"<<imageWidth<<' '<<imageHeight<<"\n255\n";
 
-    for(int j =image_height-1; j>=0; j--){
+    for(int j =imageHeight-1; j>=0; j--){
         std::cerr<<"\rScanlines remaining:" <<j<<' '<<std::flush;
-        for(int i=0; i<image_width; i++ ){
-            double r = double(i) / (image_width-1);
-            double g = double(j) / (image_height-1);
-            double b =0.25;
-
-            int ir = static_cast<int>(255.999*r);
-            int ig = static_cast<int>(255.999*g);
-            int ib = static_cast<int>(255.999*b);
-
-            std::cout<<ir<<' '<<ig<<' '<<ib<<std::endl;
+        for(int i=0; i<imageWidth; i++ ){
+            double u =double(i)/(imageWidth-1);
+            double v =double(j)/(imageHeight-1);
+            //mon Ray r a besoin d'une origine et d'une diurection
+            Ray r(origin, lowerLeftCorner+u*horizontal+v*vertical-origin);
+            Color pixelColor = rayColor(r);
+            writeColor(output, pixelColor);
 
         }
     }

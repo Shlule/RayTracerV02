@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/SchoolWork/SummerWork/RaytracerV02"
+			"value" : "C:/SchoolWork/SummerWork/RayTracerV02"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

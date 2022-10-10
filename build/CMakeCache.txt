@@ -263,7 +263,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=x64
 CMAKE_GENERATOR_TOOLSET:INTERNAL=host=x64
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=C:/SchoolWork/SummerWork/RaytracerV02
+CMAKE_HOME_DIRECTORY:INTERNAL=C:/SchoolWork/SummerWork/RayTracerV02
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
